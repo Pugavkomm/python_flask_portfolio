@@ -1,0 +1,44 @@
+{% set active_page = 'default' %} {% extends '_wrapper.html' %} {% block content %}
+
+<center>
+    <div class="container">
+        <div class="row">
+            <h1 class="display-4">Mechislav Pugavko</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="{{ url_for('static', filename='avatar.jpg') }}" class="circle-avatar">
+            </div>
+        </div>
+        <div class="row">
+            <p class="lead">Researcher, Python Developer, Data Scientist</p>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <h1 class="displa-5">About</h1>
+                <p class="text-justify w-50">
+                    Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img
+            src="https://raw.githubusercontent.com/Pugavkomm/Pugavkomm-github-stats/8ef5dc19c8716803702df817fb6959759f3377f4/generated/languages.svg">
+    </div>
+    <div class="container">
+        <div class="row">
+            <h1 class="display-5">Contacts</h1>
+        </div>
+    </div>
+</center>
+{% endblock %}

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-flask-portfolio"
+version = "0.1.0"
+description = ""
+authors = ["Pugavkomm <slavapugavko2@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "python_flask_portfolio"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2"  
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
